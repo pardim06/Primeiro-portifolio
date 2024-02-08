@@ -1,4 +1,4 @@
-/* ESTILO GERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
-/* ESTILO DO CABEÇALHO */
+
 header {
     padding: 40px 4%;
 }
@@ -79,7 +79,7 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
-/* ESTILO DO MENU MOBILE */
+
 
 .btn-abrir-menu{
     display: none;
@@ -148,7 +148,7 @@ header nav.menu-desktop ul li {
     display: none;
 }
 
-/* ESTILO DO TOPO DO SITE */
+
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -264,6 +264,7 @@ section.sobre .flex {
     transition: .2s;
 }
 
+
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
@@ -312,10 +313,6 @@ section.portfolio .flex {
     opacity: 1;
 }
 
-/* ESTILO DO FORMULÁRIO DE CONTATO */
-section.formulario {
-    padding: 80px 4%;
-}
 
 form {
     max-width: 500px;
@@ -344,19 +341,6 @@ form textarea {
     max-height: 200px;
 }
 
-form .btn-enviar {
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .btn-enviar input {
-    width: 120px;
-    background-color: #00FF08;
-    color: #000;
-    font-weight: 700;
-    cursor: pointer;
-    transition: .2s;
-}
 
 /* ESTILO DO RODAPÉ */
 
@@ -473,5 +457,6 @@ footer .line-footer p a {
 
     footer .line-footer {
         text-align: center;
+        align-items: center;
     }
 }
